@@ -56,3 +56,4 @@ playwright-report/
 
 # pnpm
 .pnpm-store/
+.vercel
