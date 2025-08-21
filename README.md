@@ -2,6 +2,10 @@
 
 A tiny DeFi utility app in React, Solana dApp for testing and development on devnet. This dApp demonstrates core Solana functionality including wallet connection, balance checking, airdrops, SPL token operations, and transaction management. Opensource for any one to contribute. Let's make this better!
 
+For Live site goto: https://solana-devnet-fv2nzr6hj-jak-ratiwanichs-projects.vercel.app/
+
+## Features:
+
 ### 🔗 Wallet Connection
 - Connect with Phantom, Solflare, and other Solana wallets
 - Automatic wallet detection and connection
@@ -42,15 +46,6 @@ node scripts/airdrop.js <public-key>
 node scripts/balance.js <public-key>
 ```
 
-### Run E2E Tests
-```bash
-# Run all tests
-pnpm test:e2e
-# Run tests with UI
-pnpm test:e2e:ui
-# Run specific test file
-npx playwright test e2e/example.spec.ts
-```
 
 ### Test Coverage
 - **Happy Path**: Wallet connection → Airdrop → Balance verification
@@ -59,7 +54,6 @@ npx playwright test e2e/example.spec.ts
 - **Responsive Design**: Mobile and desktop layout testing
 
 ## 🔒 Security Notes
-
 ⚠️ **Important Security Considerations**
 
 - **No Private Keys**: This dApp never handles private keys directly
