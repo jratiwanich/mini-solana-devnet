@@ -1,38 +1,38 @@
 # Solana Devnet dApp
 
-A tiny DeFi utility app in React, Solana dApp for testing and development on devnet. This dApp demonstrates core Solana functionality including wallet connection, balance checking, airdrops, SPL token operations, and transaction management. Opensource for any one to contribute. Let's make this better!
+A tiny DeFi utility app in React, Solana dApp for testing and development on devnet. This dApp demonstrates core Solana functionality including wallet connection, balance checking, airdrops, SPL token operations (Solana Program Library on its own blockchain), and transaction management. Opensource for any one to contribute. Join me and contribute to this dApp and let's make this better!
 
 For Live site goto: https://solana-devnet-fv2nzr6hj-jak-ratiwanichs-projects.vercel.app/
 
 ## Features:
 
-### 🔗 Wallet Connection
+### Wallet Connection
 - Connect with Phantom, Solflare, and other Solana wallets
 - Automatic wallet detection and connection
 - Display wallet address and connection status
 
-### 💰 Balance Management
+### Balance Management
 - **SOL Balance**: Real-time SOL balance display with auto-refresh
 - **SPL Token Balances**: Track multiple SPL tokens (defaults to USDC devnet)
 - **Balance History**: View recent balance changes
 
-### 🪂 Devnet Airdrop
+### Devnet Airdrop
 - **1 SOL Airdrop**: Request free SOL for testing (devnet only)
 - **Transaction Tracking**: Monitor airdrop status with Explorer links
 - **Cluster Safety**: Automatically disabled on non-devnet networks
 
-### 🔄 Token Transfers
+### Token Transfers
 - **SPL Token Transfers**: Send any SPL token to any address
 - **Automatic ATA Creation**: Creates recipient token accounts if needed
 - **Transaction Building**: Proper transaction construction with error handling
 - **Real-time Status**: Track transaction confirmation status
 
-### 📊 Transaction Center
+### Transaction Center
 - **Recent Transactions**: View last 5 transactions with status
 - **Explorer Integration**: Direct links to Solana Explorer
 - **Status Tracking**: Pending → Confirmed → Finalized status updates
 
-## 🛠 Solana Stack
+## Solana Stack
 - **Solana**: `@solana/web3.js`, `@solana/spl-token`
 - **Wallet Integration**: `@solana/wallet-adapter-react`
 
